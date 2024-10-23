@@ -21,7 +21,7 @@ The dataset contains evaluations from 17 different LLMs of 4,339 political figur
 ```
 
 ## 👥 Team
-# Authors
+### Authors
 * Maarten Buyl (*‡) - Ghent University, Belgium  
 * Alexander Rogiers (†) - Ghent University, Belgium  
 * Sander Noels (†) - Ghent University, Belgium  
@@ -37,7 +37,7 @@ The dataset contains evaluations from 17 different LLMs of 4,339 political figur
 † These authors contributed equally to this work  
 ‡ Lead author
 
-# Affiliations
+### Affiliations
 * **Ghent University**  
   Department of Electronics and Information Systems  
   IDLab  
