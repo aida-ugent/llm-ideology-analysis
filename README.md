@@ -1,6 +1,6 @@
 # LLM Ideology Analysis
 
-[![Paper](https://img.shields.io/badge/paper-pdf-blue.svg)](paper_link)
+[![Paper](https://img.shields.io/badge/paper-pdf-blue.svg)](https://arxiv.org/abs/2410.18417)
 [![Dataset](https://img.shields.io/badge/🤗_dataset-huggingface-yellow.svg)](https://huggingface.co/datasets/ajrogier/llm-ideology-analysis)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
