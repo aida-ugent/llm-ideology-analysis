@@ -13,10 +13,14 @@ The dataset contains evaluations from 17 different LLMs of 4,339 political figur
 ## 📚 Citation
 
 ```bibtex
-@article{buyl2024llm,
-  title={Large Language Models Reflect the Ideology of their Creators},
-  author={Buyl, Maarten and Rogiers, Alexander and Noels, Sander and Dominguez-Catena, Iris and Heiter, Edith and Romero, Raphael and Johary, Iman and Mara, Alexandru-Cristian and Lijffijt, Jefrey and De Bie, Tijl},
-  year={2024}
+@misc{buyl2024largelanguagemodelsreflect,
+      title={Large Language Models Reflect the Ideology of their Creators}, 
+      author={Maarten Buyl and Alexander Rogiers and Sander Noels and Iris Dominguez-Catena and Edith Heiter and Raphael Romero and Iman Johary and Alexandru-Cristian Mara and Jefrey Lijffijt and Tijl De Bie},
+      year={2024},
+      eprint={2410.18417},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.18417}, 
 }
 ```
 
