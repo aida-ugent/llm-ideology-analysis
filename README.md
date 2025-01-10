@@ -8,7 +8,64 @@ This repository contains the code and analysis tools for the paper "Large Langua
 
 ## 📊 Dataset
 
-The dataset contains evaluations from 17 different LLMs of 4,339 political figures, with responses in both English and Chinese. Access the full dataset on [Hugging Face](https://huggingface.co/datasets/ajrogier/llm-ideology-analysis).
+The dataset contains evaluations from 17 different LLMs of 4,339 political figures, with responses in both English and Chinese. Access the full dataset on [Hugging Face](https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis).
+
+## 📚 Setup and Usage
+
+### Prerequisites
+- Python 3.11 or higher
+- Poetry (for dependency management)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aida-ugent/llm-ideology-analysis.git
+   cd llm-ideology-analysis
+   ```
+
+2. Install dependencies using Poetry:
+   ```bash
+   poetry install
+   ```
+
+### Environment Configuration
+1. Copy the environment template:
+   ```bash
+   cp .env.template .env
+   ```
+
+2. Configure the following environment variables in `.env`:
+
+   #### API Keys (required for respective models)
+   - `OPENAI_API_KEY`: OpenAI API key
+   - `ANTHROPIC_API_KEY`: Anthropic API key
+   - `HUGGINGFACE_TOKEN`: Hugging Face token
+   - `MISTRAL_API_KEY`: Mistral API key
+   - `TOGETHER_API_KEY`: Together API key
+   - `PERPLEXITY_API_KEY`: Perplexity API key
+   - `GEMINI_API_KEY`: Google Gemini API key
+
+   #### Directory Paths
+   - `RESULTS_DIR`: Directory for storing results
+   - `NOTEBOOKS_DIR`: Directory containing analysis notebooks
+   - `DOCS_DIR`: Directory for documentation
+   - `FIGURES_DIR`: Directory for generated figures
+   - `CACHE_PATH`: Path for caching results
+
+### Running the Analysis
+
+1. Process questions through the unified API:
+   ```bash
+   poetry run python src/run_questions_through_unified_api.py
+   ```
+
+2. Run the manifesto tagger:
+   ```bash
+   poetry run python src/run_manifesto_tagger.py
+   ```
+
+3. Analyze results using Jupyter notebooks in the `notebooks/` directory:
+
 
 ## 📚 Citation
 
