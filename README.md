@@ -8,7 +8,7 @@ This repository contains the code and analysis tools for the paper "Large Langua
 
 ## 📊 Dataset
 
-The dataset contains evaluations from 17 different LLMs of 4,339 political figures, with responses in both English and Chinese. Access the full dataset on [Hugging Face](https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis).
+The dataset contains evaluations from 19 different LLMs of 3,991 political figures, with responses in all six UN languages (Arabic, Chinese, English, French, Russian, and Spanish). Access the full dataset on [Hugging Face](https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis).
 
 ## 📚 Setup and Usage
 
